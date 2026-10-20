@@ -78,5 +78,4 @@ async def stop(ctx):
         await ctx.voice_client.disconnect()
         await ctx.send("Musique arrêtée.")
 
-bot.run("MTU2MjA2MzcxMTAzMDc0MzE0MA.GHeJ68.VyFSG0TkFpbNe8Ju1W8PYQ131nrGNnOmvHcdNU
-")
+bot.run(os.environ.get("DISCORD_TOKEN"))
